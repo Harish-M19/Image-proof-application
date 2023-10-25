@@ -1,0 +1,105 @@
+/* Reset some default styles */
+body, h1, h2 {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background image for the body */
+body {
+    background-image: url('websitebackround.jpg'); /* Replace 'your-background-image.jpg' with the actual path to your background image */
+    background-size: contain; /* Adjusts the image size to contain within the body */
+    background-position: center center; /* Centers the background image */
+    font-family: Arial, sans-serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding-right: 20px;
+}
+
+/* Style the header */
+h1 {
+    background-color: rgba(0, 122, 204, 0.8); /* Background color with opacity */
+    color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Style the login and register containers */
+/* Style the login and register containers */
+#loginContainer, #registerContainer {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0);
+    padding: 20px;
+    max-width: 500px;
+    width: 100%;
+    margin: 20px auto; /* Center the containers horizontally */
+    display: inline-block; /* Add this line to prevent extra margin from inline elements */
+}
+
+
+/* Style the forms inside login and register containers */
+form {
+    margin-top: 20px;
+}
+input[type="text"], input[type="password"] {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button[type="submit"] {
+    background-color: #007acc;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.2s ease-in-out;
+}
+
+button[type="submit"]:hover {
+    background-color: #005c99;
+}
+
+/* Style the app container */
+#appContainer {
+    display:none;
+    /*background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 800px;
+    width: 100%;
+    margin: 20px;
+    text-align: left;*/
+}
+
+/* Style the image upload form */
+#uploadForm {
+    margin-top: 20px;
+}
+
+/* Style the image gallery */
+#imageGallery {
+    margin-top: 20px;
+}
+
+#imageGallery img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+
+
